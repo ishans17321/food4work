@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baseline Website</title>
+    <title>Food4Work - Fresh Meals for Your Workplace</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
@@ -460,40 +460,40 @@
 </head>
 <body>
     <nav>
-        <div class="logo">Your Brand</div>
+        <div class="logo">Food4Work</div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
-            <li><a href="#features">Features</a></li>
+            <li><a href="#menu">Menu</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Order Now</a></li>
         </ul>
     </nav>
 
     <section class="hero" id="home">
         <div class="hero-content">
-            <h1>Build Something <span class="accent-text">Extraordinary</span></h1>
-            <p>A foundation for your digital presence. Crafted with intention, designed to stand out.</p>
-            <a href="#contact" class="cta-button">Get Started</a>
+            <h1>Fresh Food <span class="accent-text">Delivered Daily</span></h1>
+            <p>Delicious, healthy meals prepared fresh and delivered to your workplace. Fuel your team with quality food that keeps everyone productive and happy.</p>
+            <a href="#contact" class="cta-button">Order Now</a>
         </div>
     </section>
 
-    <section class="features" id="features">
-        <h2 class="section-title">What We Offer</h2>
+    <section class="features" id="menu">
+        <h2 class="section-title">What's On the Menu</h2>
         <div class="features-grid">
             <div class="feature-card">
-                <div class="feature-icon">✦</div>
-                <h3>Premium Design</h3>
-                <p>Every element is thoughtfully crafted with attention to detail and aesthetic excellence.</p>
+                <div class="feature-icon">🥗</div>
+                <h3>Fresh Salads & Bowls</h3>
+                <p>Crisp greens, vibrant vegetables, and protein-packed bowls. Customizable to fit any dietary preference.</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">⚡</div>
-                <h3>Fast Performance</h3>
-                <p>Optimized for speed and efficiency, delivering exceptional user experiences.</p>
+                <div class="feature-icon">🍱</div>
+                <h3>Hot Entrées</h3>
+                <p>Hearty meals made fresh daily. From comfort classics to international flavors that satisfy every craving.</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">♦</div>
-                <h3>Fully Responsive</h3>
-                <p>Seamlessly adapts to any device, ensuring perfect display everywhere.</p>
+                <div class="feature-icon">🥪</div>
+                <h3>Sandwiches & Wraps</h3>
+                <p>Handcrafted with premium ingredients. Perfect for team lunches or individual orders on the go.</p>
             </div>
         </div>
     </section>
@@ -501,36 +501,36 @@
     <section class="about" id="about">
         <div class="about-content">
             <div class="about-text">
-                <h2>Our Story</h2>
-                <p>We believe in creating digital experiences that are not only functional but truly memorable. Every project begins with a vision and evolves through careful attention to craft.</p>
-                <p>Our approach combines strategic thinking with creative excellence, ensuring your presence stands out in a crowded digital landscape.</p>
+                <h2>Feeding Teams, Fueling Success</h2>
+                <p>We started Food4Work with a simple belief: great food makes for great workdays. No more sad desk lunches or endless takeout menus. We bring restaurant-quality meals directly to your office.</p>
+                <p>Every dish is prepared with fresh, locally-sourced ingredients by our passionate culinary team. Whether it's a team lunch, daily catering, or special events, we make workplace dining something to look forward to.</p>
             </div>
             <div class="about-image"></div>
         </div>
     </section>
 
     <section class="contact" id="contact">
-        <h2>Let's Connect</h2>
-        <p>Have a project in mind? We'd love to hear from you.</p>
+        <h2>Ready to Order?</h2>
+        <p>Get in touch to place an order or inquire about corporate catering packages.</p>
         <form class="contact-form">
             <div class="form-group">
-                <label for="name">Name</label>
+                <label for="name">Company Name</label>
                 <input type="text" id="name" name="name" required>
             </div>
             <div class="form-group">
-                <label for="email">Email</label>
+                <label for="email">Email Address</label>
                 <input type="email" id="email" name="email" required>
             </div>
             <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
+                <label for="message">Order Details / Questions</label>
+                <textarea id="message" name="message" placeholder="Let us know your team size, dietary preferences, delivery date..." required></textarea>
             </div>
-            <button type="submit" class="submit-button">Send Message</button>
+            <button type="submit" class="submit-button">Submit Order Request</button>
         </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 Your Brand. All rights reserved.</p>
+        <p>&copy; 2024 Food4Work. Fresh meals delivered daily.</p>
     </footer>
 
     <script>
@@ -551,7 +551,7 @@
         // Form submission handler
         document.querySelector('.contact-form').addEventListener('submit', function(e) {
             e.preventDefault();
-            alert('Thank you for your message! We\'ll get back to you soon.');
+            alert('Thank you for your order request! Our team will contact you within 24 hours to confirm details.');
             this.reset();
         });
 
